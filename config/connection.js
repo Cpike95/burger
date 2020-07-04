@@ -3,7 +3,7 @@ let connection;
 
 // MySQL DB Connection Information (remember to change this with our specific credentials)
 if (process.env.JAWSDB_URL) {
-  connection = msql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: "localhost",
