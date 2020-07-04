@@ -7,7 +7,7 @@ const connection = require("./connection.js");
 const orm = {
     //Devours all burgers. 
         all: function(test, cb) {
-            var queryString = "SELECT * FROM burgers ";
+            const queryString = "SELECT * FROM burgers ";
             
             connection.query(queryString, (err, result) => {
               if (err) throw err;
@@ -17,7 +17,7 @@ const orm = {
           },
     // a function to insert the burger_name, devo into the data base. 
         insertOne: function(burger_name, devoured, cb) {
-            var queryString = `INSERT INTO burgers (burger_name, devoured) Values (?, ?) `;
+            const queryString = `INSERT INTO burgers (burger_name, devoured) Values (?, ?) `;
 
             connection.query(queryString, [burger_name, devoured], function(err, result) {
               if (err) throw err;
