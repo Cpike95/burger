@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# burger
-=======
 # Boujie Burger App
 
 * Boujiee Burger is a restaurant app that lets users input the names of burgers they'd like to eat if they were at a high end classy restaurant.
@@ -24,6 +21,8 @@ Once everything has been set up, the application can be launched by running the 
 
 * Each burger in the waiting area also has a "Devour Me!" button. When the user clicks it, the burger will move to the right side of the page.
 
+![](burgergif.gif)
+
 ## Credits
 This application was completed by Curtis Pike as a project for UCLA/Trilogy's Full Stack Software Development Bootcamp.
 
@@ -37,5 +36,4 @@ Dependencies for this project include the node modules:
 
 Other credits include: Google Fonts, Font Awesome, and Bootstrap.
 
->>>>>>> 68d68482d91a01fc657aabab26699353ffc8b763
 
